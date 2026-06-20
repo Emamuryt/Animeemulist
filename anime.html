@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+
+<title>Browse Anime - AnimeEmu</title>
+
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="navbar">
+
+<div class="logo">
+AnimeEmu
+</div>
+
+<div class="nav-links">
+<a href="index.html">Home</a>
+<a href="anime.html">Browse</a>
+<a href="watchlist.html">Watchlist</a>
+<a href="login.html">Login</a>
+</div>
+
+</nav>
+
+<section style="padding:30px 8%;">
+
+<input
+type="text"
+id="searchInput"
+placeholder="Search Anime..."
+class="search-box">
+
+</section>
+
+<div id="animeGrid" class="anime-grid"></div>
+
+<div style="text-align:center;padding:30px;">
+<button id="loadMoreBtn" class="btn">
+Load More
+</button>
+</div>
+
+<script src="js/anime.js"></script>
+
+</body>
+</html>
