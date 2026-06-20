@@ -70,11 +70,13 @@ document
 <img
 class="details-cover"
 src="${anime.coverImage.extraLarge}">
+
 <button
 id="saveBtn"
 class="btn">
 Save To Watchlist
 </button>
+
 <div>
 
 <h1>
