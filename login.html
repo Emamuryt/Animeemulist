@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>AnimeEmu Login</title>
+
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="navbar">
+<div class="logo">AnimeEmu</div>
+
+<div class="nav-links">
+<a href="index.html">Home</a>
+<a href="anime.html">Browse</a>
+<a href="watchlist.html">Watchlist</a>
+</div>
+</nav>
+
+<div style="max-width:500px;margin:50px auto;padding:20px;">
+
+<h1>Login / Register</h1>
+
+<br>
+
+<input
+id="email"
+type="email"
+placeholder="Email"
+class="search-box">
+
+<br><br>
+
+<input
+id="password"
+type="password"
+placeholder="Password"
+class="search-box">
+
+<br><br>
+
+<button id="registerBtn" class="btn">
+Register
+</button>
+
+<button id="loginBtn" class="btn">
+Login
+</button>
+
+<button id="logoutBtn" class="btn">
+Logout
+</button>
+
+<p id="authStatus"></p>
+
+</div>
+
+<script type="module" src="js/auth.js"></script>
+
+</body>
+</html>
